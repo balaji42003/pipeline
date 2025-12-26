@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   backend:
-    image: balaji118/backend_image:v1
+    image: balaji811/backend_image:v1
     build: .
     ports:
       - "8080:8080"
