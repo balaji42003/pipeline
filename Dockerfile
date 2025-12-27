@@ -1,3 +1,3 @@
-FROM openjdk:22-jdk
-ADD target/recycle.jar  recycle.jar
-ENTRYPOINT [ "java", "-jar", "recycle.jar" ]
+FROM eclipse-temurin:22-jre
+COPY target/recycle.jar recycle.jar
+ENTRYPOINT ["java", "-jar", "recycle.jar"]
